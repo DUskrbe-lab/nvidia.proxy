@@ -46,7 +46,7 @@ def chat_completions():
 
         # ✅ HERE IS THE KEY CHANGE – model set to deepseek-v4-flash
         payload = {
-            "model": "deepseek-ai/deepseek-v4-flash",
+            "model": "deepseek-ai/deepseek-v4.1-flash",
             "messages": messages,
             "temperature": data.get("temperature", 0.7),
             "max_tokens": data.get("max_tokens", 1024),
